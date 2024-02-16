@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+h1, p {
+    color: #00f;
+}
+
+ul li {
+    background-color: #ff8888;
+    color: #007777;
+}
+
+ol li {
+    background-color: #007777;
+    color: #ff8888;
+}
