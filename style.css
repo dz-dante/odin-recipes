@@ -12,24 +12,45 @@ h1, p {
     color: #222;
 }
 
-ul, ol {
+/* Main page recipes */
+
+.recipes {
+    padding: 20px;
+    background-color: #228881;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.recipes li {
+    background-color: #fffa;
+    margin: 0 5px;
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.recipes li p {
+    display: inline-block;
+    margin: -10px;
+    padding: 10px;
+}
+
+.recipes li img {
+    width: 400px;
+    height: auto;
+}
+
+/* Main page recipes */
+
+/* Ingredients and steps lists */
+
+.ingredients ul, .steps ol {
     display: inline-block;
     width: 100%;
     padding: 40px;
     box-sizing: border-box;
     margin: 20px 0;
     background-color: #eee;
-}
-
-.recipes {
-    padding: 20px;
-    background-color: #228881;
-    font-size: 22px;
-}
-
-.recipes li {
-    background-color: inherit;
-    list-style: none;
 }
 
 .ingredients, .steps {
@@ -43,9 +64,16 @@ ul, ol {
     margin: -20px 0;
 }
 
+/* Ingredients and steps lists */
+
+/* Home button */
+
 .home-button {
     display: inline-block;
     padding: 10px 25px;
     background-color: #eee;
     border: 2px solid #ddd;
+    text-decoration: none;
 }
+
+/* Home button */
